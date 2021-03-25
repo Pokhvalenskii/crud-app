@@ -13,3 +13,4 @@ code {
 @import url(./blocks/sign-up/__content/__text/sign-up__text.css);
 @import url(./blocks/sign-up/__input/sign-up__input.css);
 @import url(./blocks/sign-up/__submit/sign-up__submit.css);
+@import url(./blocks/sign-up/__title/sign-up__title.css);
