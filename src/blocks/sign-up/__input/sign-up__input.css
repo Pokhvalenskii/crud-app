@@ -1,0 +1,12 @@
+.sign-up__input {
+  background-color: #292929;
+  border: 1px solid #42FF00;
+  color: #b9b9b9;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: 14px;  
+}
+
+.sign-up__input::placeholder {
+  color: #b9b9b9;
+}
+

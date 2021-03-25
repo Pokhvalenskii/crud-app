@@ -1,13 +1,15 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+/* body */
+@import url(./blocks/body/body.css);
+
+/* sign-up */
+@import url(./blocks/sign-up/sign-up.css);
+@import url(./blocks/sign-up/__content/sign-up__content.css);
+@import url(./blocks/sign-up/__content/__text-extra/sign-up__text-extra.css);
+@import url(./blocks/sign-up/__content/__text/sign-up__text.css);
+@import url(./blocks/sign-up/__input/sign-up__input.css);
+@import url(./blocks/sign-up/__submit/sign-up__submit.css);
