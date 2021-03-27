@@ -1,4 +1,4 @@
-function SignUp () {
+function Chat () {
   return (
     <div className='sign-up'>
       <h1 className='sign-up__title'>Registration</h1>
@@ -34,7 +34,7 @@ function SignUp () {
         </p>
       </div>
     </div>
-  );
+  )
 }
 
-export default SignUp;
+export default Chat;

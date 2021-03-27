@@ -1,11 +1,11 @@
-function SignUp () {
+function SignIn() {
   return (
     <div className='sign-up'>
-      <h1 className='sign-up__title'>Registration</h1>
+      <h1 className='sign-up__title'>Login</h1>
       <div className='sign-up__content'>
         <form>
           <p className='sign-up__text'>
-            <span className='sign-up__text-extra'>Register as:</span>:USER_EMAIL=
+            <span className='sign-up__text-extra'>login as</span>:USER_EMAIL=
             <input className="sign-up__input" 
               type="email" 
               minLength="5" 
@@ -29,12 +29,12 @@ function SignUp () {
             <button className='sign-up__submit' type='submit'>enter</button>
           </p>
         </form>
-        <p className='sign-up__text'>Already have an account?
-          <span className='link'>Sign in</span>
+        <p className='sign-up__text'>Don't have an account?
+          <span className='link'>Sign Up</span>
         </p>
       </div>
     </div>
-  );
+  )
 }
 
-export default SignUp;
+export default SignIn;
