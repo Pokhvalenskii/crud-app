@@ -17,3 +17,14 @@ code {
 
 /* link */
 @import url(./blocks/link/link.css);
+
+/* frame */
+
+@import url(./blocks/frame/frame.css);
+@import url(./blocks/frame/__content/frame__content.css);
+@import url(./blocks/frame/__title/frame__title.css);
+
+/* chat */
+@import url(./blocks/chat/chat.css);
+@import url(./blocks/chat/__wrapper/chat__wrapper.css);
+@import url(./blocks/chat/__exit/chat__exit.css);

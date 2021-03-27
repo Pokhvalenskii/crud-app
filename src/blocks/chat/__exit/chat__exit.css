@@ -1,0 +1,10 @@
+.chat__exit {
+    color: #fff;
+    margin-left: 10px;
+    cursor: pointer;  
+}
+
+.chat__exit:hover {
+  opacity: .7;
+  transition: ease .2s;
+}

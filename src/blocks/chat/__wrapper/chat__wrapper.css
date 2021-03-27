@@ -1,0 +1,6 @@
+.chat__wrapper {
+  color:red;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}

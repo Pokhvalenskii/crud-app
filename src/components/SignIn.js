@@ -1,8 +1,15 @@
+import {useHistory} from 'react-router-dom';
+
 function SignIn() {
+  const history = useHistory();
+  function handlePushRegister () {
+    history.push('/sign-up')
+  }
+
   return (
-    <div className='sign-up'>
-      <h1 className='sign-up__title'>Login</h1>
-      <div className='sign-up__content'>
+    <div className='frame'>
+      <h1 className='frame__title'>Login</h1>
+      <div className='frame__content'>
         <form>
           <p className='sign-up__text'>
             <span className='sign-up__text-extra'>login as</span>:USER_EMAIL=
@@ -30,7 +37,7 @@ function SignIn() {
           </p>
         </form>
         <p className='sign-up__text'>Don't have an account?
-          <span className='link'>Sign Up</span>
+          <span className='link' onClick={handlePushRegister}>Sign Up</span>
         </p>
       </div>
     </div>
